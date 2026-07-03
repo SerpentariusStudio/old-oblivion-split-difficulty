@@ -1,0 +1,16 @@
+# Build output
+build/
+
+# MSVC intermediate/output files
+*.obj
+*.exp
+*.lib
+*.dll
+*.pdb
+*.ilk
+*.idb
+
+# Windows / editor cruft
+Thumbs.db
+desktop.ini
+*.user

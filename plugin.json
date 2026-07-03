@@ -1,0 +1,7 @@
+{
+    "name": "SplitDifficulty",
+    "author": "varla",
+    "description": "Replaces Oblivion's single difficulty slider with independent INI multipliers: FromEnemyToPlayerDamageMult (combat damage the player takes, with a source actor), EnvironmentalDamageMult (damage the player takes with NO source actor - fall/lava/ambient), and FromPlayerToEnemyDamageMult (combat damage the player deals to enemies). Hooks Player/Character/Creature vtable[0xA9] DamageAV_F and CHAINS on top of any existing hook (capped-damage / increased-damage), computing first and passing its scaled amount down the chain. Assumes the in-game difficulty slider is centered; reads the live difficulty and warns if not.",
+    "version": "1.2",
+    "target": "xOBSE / Oblivion.exe 1.2.0.416 (Win32)"
+}
